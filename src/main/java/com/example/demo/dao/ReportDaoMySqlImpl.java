@@ -1,8 +1,10 @@
 package com.example.demo.dao;
 
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Repository;
 
 @Repository("mysql")
+@Primary
 public class ReportDaoMySqlImpl implements ReportDao{
 	
 	public ReportDaoMySqlImpl() {

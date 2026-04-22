@@ -12,7 +12,7 @@ public class ReportService {
 	private ReportDao reportDao;
 	
 	@Autowired
-	@Qualifier("oracle")
+	//@Qualifier("oracle")
 	public void setReportDao(ReportDao reportDao) {
 		this.reportDao = reportDao;
 	}
