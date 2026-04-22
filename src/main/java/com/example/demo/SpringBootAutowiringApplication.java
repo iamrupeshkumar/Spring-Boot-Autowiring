@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
-import com.example.demo.dao.ReportDaoImpl;
+import com.example.demo.dao.ReportDaoOracleImpl;
 import com.example.demo.service.ReportService;
 
 @SpringBootApplication
