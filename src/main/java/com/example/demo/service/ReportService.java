@@ -11,12 +11,16 @@ public class ReportService {
 	
 	private ReportDao reportDao;
 	
-	@Autowired
-	//@Qualifier("oracle")
-	public void setReportDao(ReportDao reportDao) {
+//	@Autowired
+//	//@Qualifier("oracle")
+//	public void setReportDao(ReportDao reportDao) {
+//		this.reportDao = reportDao;
+//	}
+	
+	
+	public ReportService(ReportDao reportDao) {
 		this.reportDao = reportDao;
 	}
-	
 	
 	public void getGeneratedReport() {
 		reportDao.getReportData();
